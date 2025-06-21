@@ -44,7 +44,7 @@ Edit the `config.json` file based on your use case.
   "refCode": "HRTBV9",
   "CAPMONSTER_API_KEY": "your_api_key"
 }
-🆕 Account Registration Mode
+## 🆕 Account Registration Mode
 json
 Copy
 Edit
@@ -60,7 +60,7 @@ Edit
 }
 Replace "your_api_key" with your actual CapMonster API key.
 
-📂 Required Files
+## 📂 Required Files
 hotmail.txt
 pgsql
 Copy
@@ -82,7 +82,7 @@ Edit
 email|password
 ➡ One account per line after registration.
 
-❌ Do NOT modify:
+## ❌ Do NOT modify:
 token.txt
 
 refreshToken.txt
@@ -91,19 +91,19 @@ tasks_status.json
 
 These are auto-generated and managed by the tool.
 
-🖥 Running the Tool
-✅ On Windows
+## 🖥 Running the Tool
+### ✅ On Windows
 Make sure config.json, hotmail.txt, account.txt, proxy.txt are set up.
 
 Run the tool by opening unich.exe.
 
-✅ On Linux
+### ✅ On Linux
 bash
 Copy
 Edit
 chmod +x unich
 ./unich
-🔑 Token Handling
+## 🔑 Token Handling
 Tokens are auto-saved to token.txt and refreshToken.txt.
 
 If the token expires, copy the refresh token into token.txt.
@@ -116,15 +116,15 @@ Delete token.txt and refreshToken.txt.
 
 Run the tool to generate new tokens.
 
-📘 License
+## 📘 License
 © 2025 Tunzankies. All rights reserved.
 
-🌐 Useful Links
+# 🌐 Useful Links
 🔗 Airdrop Dashboard
 
 🔗 CapMonster
 
-🙏 Thanks & Good Luck!
+### 🙏 Thanks & Good Luck!
 Automate smarter. Earn faster. 🚀
 
 yaml
